@@ -1,10 +1,14 @@
 import openai
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Qdrant
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Qdrant
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
 from PyPDF2 import PdfReader
+
+from langchain.embeddings import OpenAIEmbeddings
+from langchain.vectorstores import Qdrant
+
 
 def load_pdf_text(pdf):
     reader = PdfReader(pdf)

@@ -17,8 +17,8 @@ if uploaded_file and openai_api_key:
 
     # Connect to Qdrant Cloud (you can replace with your actual API key and host)
     client = QdrantClient(
-        url="https://<your-qdrant-cluster>.qdrant.cloud",
-        api_key="<your-qdrant-api-key>"
+        url="https://aa248676-8177-41a1-8781-de82541fb848.us-east-1-0.aws.cloud.qdrant.io", 
+        api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.FRAEqKYhAqg6rFRmiYUvBIv54p-A2CkxQ7_9IoQSLCY"
     )
 
     collection = "company-policy"
