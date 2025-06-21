@@ -1,5 +1,7 @@
 streamlit
-openai
 langchain
+langchain-community
+openai
 qdrant-client
 PyPDF2
+tiktoken
